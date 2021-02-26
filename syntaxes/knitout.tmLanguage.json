@@ -41,7 +41,7 @@
 				},
 				{
 					"name": "extension.opCode.knitout",
-					"match": "\\bx-\\w+"
+					"match": "\\bx[\\w-]+"
 				}
 			]
 		},
