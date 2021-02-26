@@ -1,8 +1,6 @@
 {
 	"name": "knitout",
 	"type": "light",
-	"colors": {
-	},
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -42,21 +40,21 @@
 			},
 		},
 		{
-			"name": "Needle",
-			"scope": [
-				"needle.knitout"
-			],
-			"settings": {
-				"foreground": "#594431"
-			},
-		},
-		{
 			"name": "Carrier",
 			"scope": [
 				"carrier.knitout"
 			],
 			"settings": {
 				"foreground": "#404040"
+			},
+		},
+		{
+			"name": "Needle",
+			"scope": [
+				"needle.knitout"
+			],
+			"settings": {
+				"foreground": "#594431"
 			},
 		},
 		{

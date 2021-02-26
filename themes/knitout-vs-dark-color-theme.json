@@ -1,8 +1,6 @@
 {
 	"name": "knitout-dark",
 	"type": "dark",
-	"colors": {
-	},
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -33,21 +31,21 @@
 			},
 		},
 		{
-			"name": "Carrier",
-			"scope": [
-				"carrier.knitout"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			},
-		},
-		{
 			"name": "Extension.OpCode",
 			"scope": [
 				"extension.opCode.knitout"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
+			},
+		},
+		{
+			"name": "Carrier",
+			"scope": [
+				"carrier.knitout"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			},
 		},
 		{
