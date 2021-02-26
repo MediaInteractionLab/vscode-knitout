@@ -1,0 +1,88 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"scopeName": "source.knitout",
+	"name": "knitout",
+	"patterns": [
+		{
+			"include": "#opCode"
+		},
+		{
+			"include": "#needle"
+		},
+		{
+			"include": "#carrier"
+		},
+		{
+			"include": "#direction"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#magicString"
+		},
+		{
+			"include": "#commentHeader"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"opCode": {
+			"patterns": [
+				{ 
+					"name": "machine.opCode.knitout",
+					"match": "\\b(in|inhook|releasehook|out|outhook|rack|pause)\\b"
+				},
+				{
+					"name": "needle.opCode.knitout",
+					"match": "\\b(stitch|knit|tuck|split|drop|amiss|xfer|miss)\\b"
+				},
+				{
+					"name": "extension.opCode.knitout",
+					"match": "\\bx-\\w+"
+				}
+			]
+		},
+		"needle": {
+			"patterns": [
+				{
+					"name": "needle.knitout",
+					"match": "\\b[bf]\\d+"
+				}
+			]
+		},
+		"direction": {
+			"patterns": [
+				{
+					"name": "direction.knitout",
+					"match": "[+-]"
+				}
+			]
+		},
+		"carrier": {
+			"patterns": [
+				{
+					"name": "carrier.knitout",
+					"match": "\\b\\d+\\b"
+				}
+			]
+		},
+		"magicString": {
+			"name": "magicString.knitout",
+			"begin": ";!",
+			"end": "\n"
+		},
+		"commentHeader": {
+			"name": "commentHeader.knitout",
+			"begin": ";;",
+			"end": "\n"
+		},
+		"comments": {
+			"name": "comment.knitout",
+			"begin": ";",
+			"end": "\n"
+		}
+	}
+}

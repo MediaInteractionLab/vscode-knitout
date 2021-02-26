@@ -1,0 +1,37 @@
+{
+    "name": "knitout",
+    "displayName": "knitout language extension",
+    "description": "knitout language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "knitout",
+            "aliases": ["knitout", "knitout"],
+            "extensions": [".k",".knitout"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "knitout",
+            "scopeName": "source.knitout",
+            "path": "./syntaxes/knitout.tmLanguage.json"
+        }],
+        "themes": [
+            {
+                "label": "knitout-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/knitout-vs-dark-color-theme.json"
+            },
+            {
+                "label": "knitout",
+                "uiTheme": "vs",
+                "path": "./themes/knitout-vs-color-theme.json"
+            }
+        ]
+    }
+}

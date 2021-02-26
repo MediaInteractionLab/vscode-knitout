@@ -1,0 +1,91 @@
+{
+	"name": "knitout-dark",
+	"type": "dark",
+	"colors": {
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment.knitout"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#6A9955"
+			},
+		},
+		{
+			"name": "Machine.OpCode",
+			"scope": [
+				"machine.opCode.knitout"
+			],
+			"settings": {
+				"foreground": "#9ccdc4"
+			},
+		},
+		{
+			"name": "Needle.OpCode",
+			"scope": [
+				"needle.opCode.knitout"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			},
+		},
+		{
+			"name": "Carrier",
+			"scope": [
+				"carrier.knitout"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			},
+		},
+		{
+			"name": "Extension.OpCode",
+			"scope": [
+				"extension.opCode.knitout"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			},
+		},
+		{
+			"name": "Needle",
+			"scope": [
+				"needle.knitout"
+			],
+			"settings": {
+				"foreground": "#c9d4b1"
+			},
+		},
+		{
+			"name": "Direction",
+			"scope": [
+				"direction.knitout"
+			],
+			"settings": {
+				"foreground": "#dccd79"
+			},
+		},
+		{
+			"name": "MagicString",
+			"scope": [
+				"magicString.knitout"
+			],
+			"settings": {
+                "fontStyle": "bold",
+				"foreground": "#c586c0"
+			},
+		},
+		{
+			"name": "CommentHeader",
+			"scope": [
+				"commentHeader.knitout"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			},
+		}
+	]
+}
