@@ -29,24 +29,12 @@
             "id": "knitout",
             "aliases": ["knitout", "knitout"],
             "extensions": [".k",".knitout"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./syntaxes/language-configuration.json"
         }],
         "grammars": [{
             "language": "knitout",
             "scopeName": "source.knitout",
             "path": "./syntaxes/knitout.tmLanguage.json"
-        }],
-        "themes": [
-            {
-                "label": "knitout-dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/knitout-vs-dark-color-theme.json"
-            },
-            {
-                "label": "knitout",
-                "uiTheme": "vs",
-                "path": "./themes/knitout-vs-color-theme.json"
-            }
-        ]
+        }]
     }
 }

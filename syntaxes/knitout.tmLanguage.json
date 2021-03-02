@@ -4,6 +4,9 @@
 	"name": "knitout",
 	"patterns": [
 		{
+			"include": "#test"
+		},
+		{
 			"include": "#opCode"
 		},
 		{
@@ -29,18 +32,26 @@
 		}
 	],
 	"repository": {
+		"test": {
+			"patterns": [
+				{
+					"name": "entity.name.type",
+					"match": "\\b(bla)\\b"
+				}
+			]
+		},
 		"opCode": {
 			"patterns": [
 				{ 
-					"name": "machine.opCode.knitout",
+					"name": "keyword.control",
 					"match": "\\b(in|inhook|releasehook|out|outhook|rack|pause)\\b"
 				},
 				{
-					"name": "needle.opCode.knitout",
+					"name": "entity.name.function",
 					"match": "\\b(stitch|knit|tuck|split|drop|amiss|xfer|miss)\\b"
 				},
 				{
-					"name": "extension.opCode.knitout",
+					"name": "string.quoted.double",
 					"match": "\\bx[\\w-]+"
 				}
 			]
@@ -48,7 +59,7 @@
 		"needle": {
 			"patterns": [
 				{
-					"name": "needle.knitout",
+					"name": "constant.character",
 					"match": "\\b[bf]\\d+"
 				}
 			]
@@ -56,7 +67,7 @@
 		"direction": {
 			"patterns": [
 				{
-					"name": "direction.knitout",
+					"name": "keyword.operator",
 					"match": "[+-]"
 				}
 			]
@@ -64,24 +75,24 @@
 		"carrier": {
 			"patterns": [
 				{
-					"name": "carrier.knitout",
+					"name": "constant.numeric",
 					"match": "\\b\\d+\\b"
 				}
 			]
 		},
 		"magicString": {
-			"name": "magicString.knitout",
+			"name": "markup.heading",
 			"begin": ";!",
 			"end": "\n"
 		},
 		"commentHeader": {
-			"name": "commentHeader.knitout",
-			"begin": ";;",
+			"name": "markup.heading.2",
+			"begin": ";{2}",
 			"end": "\n"
 		},
 		"comments": {
-			"name": "comment.knitout",
-			"begin": ";",
+			"name": "comment.line.double-dash",
+			"begin": ";{1}",
 			"end": "\n"
 		}
 	}
