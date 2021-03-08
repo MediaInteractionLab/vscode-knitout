@@ -1,7 +1,7 @@
 {
     "name": "vscode-knitout",
-    "displayName": "knitout",
-    "description": "knitout language extension for VS Code",
+    "displayName": "Knitout",
+    "description": "Knitout language extension for VS Code",
     "version": "0.0.1",
     "publisher": "ithrak",
     "author": {
@@ -29,7 +29,7 @@
             "id": "knitout",
             "aliases": ["knitout", "knitout"],
             "extensions": [".k",".knitout"],
-            "configuration": "./syntaxes/language-configuration.json"
+            "configuration": "./syntaxes/knitout-configuration.json"
         }],
         "grammars": [{
             "language": "knitout",
