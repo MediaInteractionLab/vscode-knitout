@@ -3,9 +3,9 @@
     "displayName": "Knitout",
     "description": "Knitout language extension for VS Code",
     "version": "0.0.1",
-    "publisher": "ithrak",
+    "publisher": "mi-lab",
     "author": {
-        "name": "iko79"
+        "name": "eyeco"
     },
     "icon": "images/icon.png",
     "galleryBanner": {
@@ -18,7 +18,7 @@
     "license": "SEE LICENSE IN LICENSE.txt",
     "repository": {
         "type": "git",
-        "url": "https://gitlab.fh-ooe.at/fe/milab/vscode-knitout.git"
+        "url": "https://github.com/MediaInteractionLab/vscode-knitout.git"
     },
     "homepage": "https://www.mi-lab.org",
     "categories": [

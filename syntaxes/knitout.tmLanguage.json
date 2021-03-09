@@ -32,14 +32,6 @@
 		}
 	],
 	"repository": {
-		"test": {
-			"patterns": [
-				{
-					"name": "entity.name.type",
-					"match": "\\b(bla)\\b"
-				}
-			]
-		},
 		"opCode": {
 			"patterns": [
 				{ 

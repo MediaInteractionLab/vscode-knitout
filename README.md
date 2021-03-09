@@ -22,7 +22,7 @@ This should generate a file named `vscode-knitout-0.0.1.vsix` in the current dir
 
 ### Installing manually
 
-Shut down all instances of VS Code. Browse to your VS Code extension folder, which is locted at `%USERPROFILE%\.vscode\extensions`. Create a new folder named `ithrak.vscode-knitout-0.0.1`. Copy the content of this package into this folder. Files required are:
+Shut down all instances of VS Code. Browse to your VS Code extension folder, which is locted at `%USERPROFILE%\.vscode\extensions`. Create a new folder named `eyeco.vscode-knitout-0.0.1`. Copy the content of this package into this folder. Files required are:
 
 * `images/icon.png`
 * `images/screenshot.png`
@@ -45,3 +45,6 @@ Magic string and Comment Header are treated as regular comment.
 
 Initial release.
 
+## Notes
+
+The [icon](images/logo.svg) is taken from [Carnegie Mellon Textiles Lab](https://textiles-lab.github.io/), who proposed the Knitout file format.
