@@ -52,7 +52,7 @@
 			"patterns": [
 				{
 					"name": "constant.character",
-					"match": "\\b[bf]\\d+"
+					"match": "(f|b|fs|bs)\\d+"
 				}
 			]
 		},
